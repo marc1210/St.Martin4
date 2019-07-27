@@ -1,5 +1,5 @@
 import React from "react";
-//import rigoImage from "../../img/rigo-baby.jpg";
+
 import "../../styles/home.scss";
 
 export class Home extends React.Component {
@@ -105,7 +105,7 @@ export class Home extends React.Component {
 												src="http://sandradi.files.wordpress.com/2009/11/saint-martin-de-porres.jpg?w=400&h=649"
 											/>
 										</a>
-										{/*<p>Who was St. Martin de Porres?</p>*/}
+										<p className="font-italic">Who was St. Martin de Porres?</p>
 										St. Martin de Porres was a very poor mulatto who was born in the 1500s. His mom
 										was a freed slae from Panama and his father a Spaniard. Martin was born in Peru.
 										His birth certificate read “father unknown” because his father had abandoned

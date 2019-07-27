@@ -4,15 +4,36 @@ import { Link } from "react-router-dom";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar navbar-light bg-light mb-3">
+			<nav className="navbar text-light bg-primary mb-3">
+				<img
+					style={{
+						width: "30px",
+						height: "40px"
+					}}
+					src="https://www.askideas.com/media/48/Nice-Microphone-Tattoo-Drawing.jpg"
+				/>
 				<Link to="/">
-					<span className="navbar-brand mb-0 h1">React Boilerplate</span>
+					<span className="text-light font-italic h2">
+						St. Martin de Porres Visual and Performing Arts Ministry
+					</span>
 				</Link>
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
+
+				<Link to="/">
+					<button className="btn bg-secondary">Home</button>
+				</Link>
+
+				<Link to="/events/">
+					<button className="btn bg-secondary">Events</button>
+				</Link>
+				{/*<Link to="/blog/">
+					<button className="btn bg-secondary">Read about me</button>
+				</Link>*/}
+				<Link to="/events">
+					<button className="btn bg-secondary">Archive</button>
+				</Link>
+				<Link to="/Archive">
+					<button className="btn bg-secondary">Login</button>
+				</Link>
 			</nav>
 		);
 	}

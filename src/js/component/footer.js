@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 
-export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by <a href="">Build A Geek</a>
-		</p>
-	</footer>
-);
+export class Footer extends Component {
+	render() {
+		return (
+			<footer className="footer mt-auto py-3 text-center">
+				<p>
+					Made by <i className="fas fa-glasses" /> for Nerds{" "}
+					{/*<a href="https://thebookishfairy.com/">Noobs.com</a>*/}
+				</p>
+			</footer>
+		);
+	}
+}
