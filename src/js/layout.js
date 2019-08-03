@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
+import { Espanol } from "./views/espanol.js";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import { Events } from "./views/events.js";
@@ -26,6 +27,7 @@ export class Layout extends React.Component {
 						<Switch>
 							<Route exact path="/" component={Home} />
 							<Route path="/demo" component={Demo} />
+							<Route path="/espanol" component={Espanol} />
 							<Route path="/events" component={Events} />
 							<Route path="/single/:theid" component={Single} />
 							<Route render={() => <h1>Not found!</h1>} />

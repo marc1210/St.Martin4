@@ -2,7 +2,7 @@ import React from "react";
 
 import "../../styles/home.scss";
 
-export class Home extends React.Component {
+export class Espanol extends React.Component {
 	render() {
 		return (
 			<div>
@@ -68,29 +68,27 @@ export class Home extends React.Component {
 							</div>
 						</div>
 						<div className="col-md-3">
-							<h4>Who was St. Martin de Porres?</h4>
+							<h4>Quien era San Martin de Porres?</h4>
+							<p>Un pobre mulatto de Peru, quien queria ayudar a los sufridos y despreciados.</p>
+							<h5>Por que es importante?</h5>
 							<p>
-								He was a poor mulatto from Peru, who wanted to help the outcasts and the suffering. In
-								the face of hatred, he chose to give more love.
+								El nos ensena que todos merecemos amar y ser amados. St. Martin fue sanctificado en el
+								amor de Cristo atravez de sus labores y nos ensena que podemos hacer lo mismo.
 							</p>
-							<h5>Why is he important?</h5>
-							<p>
-								He teaches us that all of us are worthy of loving and being loved. He became sanctified
-								in Christ’s love through his works and teaches us that we can do the same.
-							</p>
-							<h5>What do we do?</h5>
+							<h5>Que es lo que nosotros hacemos?</h5>
 
 							<p>
-								We visit a nursing home, whose members’ family and friends have abandoned them, and we
-								bring them love and happiness through MUSIC, DANCING, AND CRAFTS.
+								Visitamos a un asilo, en cual las amistades y los familiars de los pacientes, los han
+								abandonado y les traemos alegria y felicidad atravez de la MUSICA, BAILE, Y
+								MANUALIDADES.
 							</p>
-							<h5>How can I find out how to participate?</h5>
+							<h5>Como puedo participar?</h5>
 							<p>
-								Fill out your information on the spreadsheet on the table. Contacts: Rosa or Jenny
-								Email: joly10@msn.com Phone: 786.495.9846 o 305.801.8951
+								Llene su informacion en el papel encima de la mesa. Contactos: Rosa o Jenny Email:
+								joly10@msn.com Telefono: 786.495.9846 o 305.801.8951
 							</p>
-							<h5>Who participates?</h5>
-							<p>ALL AGES</p>
+							<h5>Quienes pueden participar?</h5>
+							<p>DAS EDADES.</p>
 						</div>
 					</div>
 					<div className="dropdown-divider" />

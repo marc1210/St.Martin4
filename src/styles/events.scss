@@ -1,18 +1,4 @@
-/* Using panels to display blog date */
-.panel.date {
-    margin: 0px;
-    width: 60px;
-    text-align: center;
-}
-
-.panel.date .month {
-    padding: 2px 0px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.panel.date .day {
-    padding: 3px 0px;
-    font-weight: 700;
-    font-size: 1.5em;
-}
+.table-style .today {background: #2A3F54; color: #ffffff;}
+.table-style th:nth-of-type(7),td:nth-of-type(7) {color: blue;}
+.table-style th:nth-of-type(1),td:nth-of-type(1) {color: red;}
+.table-style tr:first-child th{background-color:#F6F6F6; text-align:center; font-size: 15px;}
