@@ -22,9 +22,9 @@ export class Navbar extends React.Component {
 					<button className="btn bg-secondary">Home</button>
 				</Link>
 
-				<Link to="/events/">
+				{/*<Link to="/events/">
 					<button className="btn bg-secondary">Events</button>
-				</Link>
+				</Link>*/}
 				<Link to="/espanol/">
 					<button className="btn bg-secondary">Espanol</button>
 				</Link>
