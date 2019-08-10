@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export class Navbar extends React.Component {
 	render() {
 		return (
-			<nav className="navbar text-light bg-primary mb-3">
+			<nav className="navbar text-light bg-info mb-3">
 				<img
 					style={{
 						width: "30px",
@@ -31,7 +31,7 @@ export class Navbar extends React.Component {
 				<Link to="/events">
 					<button className="btn bg-secondary">Archive</button>
 				</Link>
-				<Link to="/Archive">
+				<Link to="/login">
 					<button className="btn bg-secondary">Login</button>
 				</Link>
 			</nav>

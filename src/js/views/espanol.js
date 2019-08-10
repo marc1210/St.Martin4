@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../styles/home.scss";
+import "../../styles/espanol.scss";
 
 export class Espanol extends React.Component {
 	render() {
@@ -23,11 +23,19 @@ export class Espanol extends React.Component {
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
 										<img
+											style={{
+												width: "820px",
+												height: "600px"
+											}}
 											className="banner img-fluid"
-											src="https://a.icons8.com/MUfTaM5t/Bs3cxv/image.png
-"
+											src="https://www.bing.com/th?id=OIP.qtu87Phu1VVtqHLw3Ir5SAHaE7&pid=Api&rs=1"
 											alt="First slide"
 										/>
+										<div className="carousel-caption">
+											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
+											<p>Pray for US!</p>
+											<a href="/foobar">Click here!</a>
+										</div>
 										<a href="/foobar">Click here!</a>
 									</div>
 									<div className="carousel-item">
@@ -106,42 +114,47 @@ export class Espanol extends React.Component {
 									</a>
 									<div className="media-body">
 										<h4 className="media-heading" />
+
+										<h4>Somos el ministerio de Martin de Porres: Artes Visuales y Escenicas.</h4>
+										<h5>Proposito del Ministerio</h5>
 										<p>
-											We are the St. Martin de Porres Visual and Performing Arts Ministry, located
-											at Our Lady of Lourdes Catholic Church in Miami, FL. Our ministry was
-											started by Rosa and Jennifer Springer back in 2008 and we have performed
-											this service since 2010.
+											El proposito de nuestro ministerio es traer alegria y felicidad a los
+											residentes que han sido abandonados por sus familiares y amistades en los
+											asilos.
 										</p>
 										<p>
-											Once a year, we bring joy and happiness to the residents who have been
-											abandoned by their friends and family, at nursing homes.
-										</p>
-										<ul>
-											<li>
-												bring talents and concerts; including dance and handmade cards to the
-												patients.
-											</li>
-											<li>
-												look for talent but also for people that will animate the residents with
-												dementia.
-											</li>
-										</ul>
-										<p>
-											To find out about the types of gifts we bring, you must attend a meeting as
-											we have a very specific criteria we have to meet as this is a very delicate
-											population with unique health problems.
+											Una vez al anio llevamos talentos y conciertos, hasta baile y tarjetitas
+											hechas a mano a los pacientes.{" "}
 										</p>
 										<p>
-											Since the beginning, we have catered to those with busy schedules and so we
-											only get together in the weeks approaching the visit, except for birthdays
-											and holidays. We have plans in the works to start attending volunteer events
-											as the St. Martin de Porres group, to socialize with the rest of the
-											community.
+											Buscamos talento pero tambien personas que animen a estas personas que
+											tienen demencia.
 										</p>
-										<p className="font-weight-bold">
-											We try to simulate St. Martin de Porres’ humility via this service because
-											we visit the most needy and outcasted individuals; they have been abandoned
-											by the very ones they loved.
+										<p>
+											Preparamos regalitos con toallitas, guantes, medias, y otras cositas para
+											ellos. (Si preguntan que pueden traer se les contesta: Tienen que asistir a
+											la reunion para expliquarles sobre el criterio de los regalos, por que por
+											ejemplo: cosas punzantes no se les puede entregar a estos pacientes por su
+											condicion mental.)
+										</p>
+										<p>
+											Es un servicio que tiene muchas facetas las cuales tratamos de cubrir en un
+											par de horas. Por eso, tiene que ser muy organizado y solo nos reunimos en
+											las fechas que se aproxima al dia de la visita. Tambien estamos planificando
+											participar en otras obras, presentandonos como el grupo de San Martin, para
+											hacer servicio y tambien socializar con la comunidad catolica de Miami.
+										</p>
+										<p>
+											Si preguntan a que asilo van, se les dice que eso lo vamos revelando en los
+											dias antes de la visita, por privacidad a los pacientes.
+										</p>
+										<p>
+											Si preguntan cuando, casi siempre cay dentro de los meses de agosto y
+											octubre, antes de la misa de San Martin de Porres (3 de noviembre).
+										</p>
+										<p>
+											Despues de la visita hacemos la novena y celebramos el dia de el el 3 de
+											noviembre.
 										</p>
 										<ul className="list-inline">
 											<li className="list-inline-item">
@@ -163,36 +176,41 @@ export class Espanol extends React.Component {
 										/>
 									</a>
 									<div className="media-body">
-										<h4 className="media-heading">Who was St. Martin de Porres?</h4>
+										<h4 className="media-heading">Quien es San Martin de Porres?</h4>
 										<p>
-											St. Martin de Porres was a very poor mulatto who was born in the 1500s. His
-											mom was a freed slae from Panama and his father a Spaniard. Martin was born
-											in Peru. His birth certificate read “father unknown” because his father had
-											abandoned him, his sister, and his mother because they weren’t white.
+											San Martin de Porres era un mulato muy pobre que nacio en los anos 1500s. Su
+											mama era una esclava de Panama y su Padre un espanol. Martin nacio en Peru.
+											Su partida de nacimiento leia padre desconocido porque su padre los habia
+											abandonado a el, su hermana, y mama por haber sido de un color que no era
+											blanco.
 										</p>
 										<p>
-											St. Martin learned a little bit of everything...from barber to surgeon. He
-											was a very devout Christian and wanted to join the seminary, but back then
-											(and sometimes in today’s date), there was a lot of racism. Even in the
-											church. The nuns would make fun of his color, and the seminary did not allow
-											him to be a priest. Despite all of this, he was happy with and accepted
-											being a religious brother. He would cure the sick, do the cleaning of the
-											facility, and he would feed the animals, even the rats.
+											San Martin aprendio de todo...desde barbero hasta cirujano..El era muy
+											devoto y queria entrar a un seminario, pero aquel entonces…(y aveces hoy en
+											dia), existia mucho racismo. Hasta en la iglesia. Las monjas se burlaban de
+											su color y el seminario no lo dejaba ser cura. Sin embargo, el se alegro y
+											conformo con ser un religioso. Curaba los enfermos, hacia la limpieza y le
+											daba de comer a los animales, hasta a las ratas.
 										</p>
 										<p>
-											During the times of the plague, many people became sick, and no one wanted
-											to nurse these patients. They were very contagious, and so, they were locked
-											behind many doors. St. Martin didn’t care about any of that, and his faith
-											was so strong and his desire to help the most needy, that he was able to fly
-											through several doors to get to the sick person, who which for sure was
-											white. Like others that were so close to God, St. Martin had supernatural
-											powers. He had the ability to heal other instantaneously, he had a special
-											connection with the animals, and he had the ability of bilocation (being at
-											two places at once).
+											Cuando llego la epoca de la plaga, muchas personas se enfermaban y nadie
+											queria atender a estas personas, pues estaban contagiosas. Entonces, las
+											encerraban tras muchas puertas. San Martin, quien no le importaba nada de
+											eso, y tan fuerte que era su fe y su querer por atender a los mas
+											necesitados, logro volar tras varias puertas para llegar al enfermo, quien
+											por cierto era blanco. Como otras personas tan cercanas a Dios, San Martin
+											tenia abilidades superpoderosas. Tenia la abilidad de curar
+											instantaneamente, tenia una coneccion especial con los animales, y tenia la
+											abilidad de estar en mas de un lugar a la vez.
 										</p>
-										<p>He was finally ordained near the end of his life.</p>
+										<p>Al final fue ordenado como cura.</p>
 
-										<p>His humility was what brought him to be a saint.</p>
+										<p>Su humildad fue lo que lo hizo ser santo.</p>
+										<h4>
+											Nosotros tratamos de simular su humildad por medio de este labor porque
+											visitamos a los mas despreciados y necesitados pues estas personas han sido
+											abandonadas por sus familiares y amistades.
+										</h4>
 
 										<ul className="list-inline">
 											<li className="list-inline-item">

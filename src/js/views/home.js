@@ -7,11 +7,9 @@ export class Home extends React.Component {
 		return (
 			<div>
 				{/*---- Include the above in your HEAD tag --------*/}
-				<link
-					href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-					rel="stylesheet"
-				/>
+
 				<div className="container">
+					<div id="app" />
 					<div className="row">
 						<div className="col-md-9">
 							<div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
@@ -19,16 +17,23 @@ export class Home extends React.Component {
 									<li data-target="#carousel-example-generic" data-slide-to={0} className="active" />
 									<li data-target="#carousel-example-generic" data-slide-to={1} />
 									<li data-target="#carousel-example-generic" data-slide-to={2} />
-								</ol>
+								</ol>{" "}
 								<div className="carousel-inner" role="listbox">
 									<div className="carousel-item active">
 										<img
+											style={{
+												width: "820px",
+												height: "600px"
+											}}
 											className="banner img-fluid"
-											src="https://a.icons8.com/MUfTaM5t/Bs3cxv/image.png
-"
+											src="https://www.bing.com/th?id=OIP.qtu87Phu1VVtqHLw3Ir5SAHaE7&pid=Api&rs=1"
 											alt="First slide"
 										/>
-										<a href="/foobar">Click here!</a>
+										<div className="carousel-caption">
+											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
+											<p>Pray for US!</p>
+											<a href="/foobar">Click here!</a>
+										</div>
 									</div>
 									<div className="carousel-item">
 										<img
@@ -43,10 +48,6 @@ export class Home extends React.Component {
 											src="http://www.discountcatholicproducts.com/Assets/33/224/img/546-SH.jpg"
 											alt="Third slide"
 										/>
-										<div className="carousel-caption">
-											<h3>Here Tst</h3>
-											<p>Hi, Im Text</p>
-										</div>
 									</div>
 								</div>
 								<a
@@ -262,10 +263,7 @@ export class Home extends React.Component {
 								<div className="media-body">
 									<h4 className="media-heading" />
 									<p>
-										<a href="#">
-											<i className="fa fa-link" />
-											See more
-										</a>
+										<a href="#" />
 									</p>
 								</div>
 							</div>

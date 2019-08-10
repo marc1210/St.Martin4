@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import ScrollToTop from "./component/scrollToTop";
 
 import { Home } from "./views/home";
+import { Login } from "./views/login";
 import { Espanol } from "./views/espanol.js";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
@@ -26,6 +27,7 @@ export class Layout extends React.Component {
 						<Navbar />
 						<Switch>
 							<Route exact path="/" component={Home} />
+							<Route path="/login" component={Login} />
 							<Route path="/demo" component={Demo} />
 							<Route path="/espanol" component={Espanol} />
 							<Route path="/events" component={Events} />
