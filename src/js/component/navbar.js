@@ -28,7 +28,7 @@ export class Navbar extends React.Component {
 				<Link to="/espanol/">
 					<button className="btn bg-secondary">Espanol</button>
 				</Link>
-				<Link to="/events">
+				<Link to="/archive">
 					<button className="btn bg-secondary">Archive</button>
 				</Link>
 				<Link to="/login">
