@@ -32,11 +32,12 @@ export class Espanol extends React.Component {
 											alt="First slide"
 										/>
 										<div className="carousel-caption">
-											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
-											<p>Pray for US!</p>
-											<a href="/foobar">Click here!</a>
+											<h3>
+												Service to others is the rent you pay for your room here on earth. ―
+												Muhammad Ali
+											</h3>
 										</div>
-										<a href="/foobar">Click here!</a>
+										<a href="/">Click here!</a>
 									</div>
 									<div className="carousel-item">
 										<img
@@ -102,7 +103,7 @@ export class Espanol extends React.Component {
 					<div className="dropdown-divider" />
 					<div className="row">
 						<div className="col-md-9">
-							<h2>Who are we?</h2>
+							<h4 className="media-heading">Quien es San Martin de Porres?</h4>
 							<div className="row">
 								<div className="media">
 									<a className="media-left media-middle" href="#">

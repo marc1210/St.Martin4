@@ -1,45 +1,34 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-
 import { Context } from "../store/appContext";
 
-import "../../styles/demo.scss";
-
-export class Demo extends React.Component {
+export class Single extends React.Component {
 	render() {
 		return (
-			<div className="container">
-				<ul className="list-group">
-					<Context.Consumer>
-						{({ store, actions }) => {
-							return store.demo.map((item, index) => {
-								return (
-									<li
-										key={index}
-										className="list-group-item d-flex justify-content-between"
-										style={{ background: item.background }}>
-										<Link to={"/single/" + index}>
-											<span>Link to: {item.title}</span>
-										</Link>
-										<p style={{ color: item.initial }}>
-											{"Check store/store.js scroll to the actions to see the code "}
-										</p>
-										<button
-											className="btn btn-success"
-											onClick={() => actions.changeColor(index, "orange")}>
-											Change Color
-										</button>
-									</li>
-								);
-							});
-						}}
-					</Context.Consumer>
-				</ul>
-				<br />
+			<div className="jumbotron">
+				<Context.Consumer>
+					{({ store }) => {
+						return (
+							<h1 className="display-4">
+								This will show the demo element: {store.demo[this.props.match.params.theid].title}
+							</h1>
+						);
+					}}
+				</Context.Consumer>
+
+				<hr className="my-4" />
+
 				<Link to="/">
-					<button className="btn btn-primary">Back home</button>
+					<span className="btn btn-primary btn-lg" href="#" role="button">
+						Back home
+					</span>
 				</Link>
 			</div>
 		);
 	}
 }
+
+Single.propTypes = {
+	match: PropTypes.object
+};

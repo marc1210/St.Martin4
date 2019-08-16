@@ -8,7 +8,7 @@ export class Home extends React.Component {
 			<div>
 				{/*---- Include the above in your HEAD tag --------*/}
 
-				<div className="container">
+				<div className="">
 					<div id="app" />
 					<div className="row">
 						<div className="col-md-9">
@@ -32,7 +32,7 @@ export class Home extends React.Component {
 										<div className="carousel-caption">
 											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
 											<p>Pray for US!</p>
-											<a href="/foobar">Click here!</a>
+											<a href="/espanol">Click here!</a>
 										</div>
 									</div>
 									<div className="carousel-item">
@@ -57,7 +57,7 @@ export class Home extends React.Component {
 									data-slide="prev">
 									<span className="icon-prev" aria-hidden="true" />
 									<span className="sr-only">Previous</span>
-								</a>
+								</a>{" "}
 								<a
 									className="right carousel-control"
 									href="#carousel-example-generic"
@@ -97,7 +97,7 @@ export class Home extends React.Component {
 					<div className="dropdown-divider" />
 					<div className="row">
 						<div className="col-md-9">
-							<h2>Who are we?</h2>
+							<h4 className="media-heading">Who are we?</h4>
 							<div className="row">
 								<div className="media">
 									<a className="media-left media-middle" href="#">
@@ -209,7 +209,7 @@ export class Home extends React.Component {
 							</div>
 							<div className="row">
 								<div className="media">
-									{/*<a className="media-left media-middle" href="#">
+									<a className="media-left media-middle" href="#">
 										<img
 											className="img-media media-object"
 											src="https://www.craftoutlet.com/media/catalog/product/cache/1/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/i/m/image_6335.jpg"
@@ -227,7 +227,7 @@ export class Home extends React.Component {
 												</a>
 											</li>
 										</ul>
-									</div>*/}
+									</div>
 								</div>
 							</div>
 						</div>
