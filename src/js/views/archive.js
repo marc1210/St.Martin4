@@ -27,10 +27,10 @@ export class Archive extends React.Component {
 							<div className="row">
 								<div className="span2">
 									<a href="#" className="thumbnail">
-										<img
+										{/* <img
 											src="https://lh3.googleusercontent.com/0QYvo-PgW2q8hCQ-iASDqwwMwpdPkAoLG_E3yYoz36NOXWJ5ysnQtm1lV9tzrwdM031ik9heLdc9qWGUF1Q9t5Rf6QGotTbHUh5Uvqo25qYjta2FCgfevz9dInTYcomJ4DHrSaKsXXTf17nIUgLigY8B827hbBctTf-UrXxbmfqfLeCyQmeheqrHLzocq99b5b4z8JRw6x9vq6Xr59f9qpGMEohJOZzXwC7dswcmDPUNAG6zs6Z_uF1XZ7e6iIEcQCv22XDNMbRohaXyrxdonejxOMubNhWypKfeZq5LcDE60lFN23_EVq6seqBbS84F5DSUuEq6okZZn42JYTpanKsQ-mbA-O_Ml4yBUzhHf-rGK_h2im5apWtsmh4D3kX0o13ACDS2CM1UIs74h7hFH_UHCiDtusVTBviaAs2e9pxeIXDfVZzIQNhwIB3BxRV6xSdBylCbzzjgtWPsfGarvWzND3XFuYCeWCONj698fFFNm3WfcFc6wV0iJpbUyre9y6tQmZWPEwl-Qa0FnlAHnu7L5Kqw-m1sopJkSg975MP05TCjsHFlTbPErAw3QD1W3fn5zDdizihZ3V2OzmNFNBgwe_G75yCoBYp1t0W0DgcG2ZzGaxdY8c0toBZAHhhaTEM2r6IqYVSrhD9c0ifeifTdHohRptc=w1173-h881-no"
 											alt=""
-										/>
+										/> */}
 									</a>
 								</div>
 								<div className="span10">

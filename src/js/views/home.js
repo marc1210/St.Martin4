@@ -8,64 +8,29 @@ export class Home extends React.Component {
 			<div>
 				{/*---- Include the above in your HEAD tag --------*/}
 
-				<div className="">
+				<div className="container">
 					<div id="app" />
 					<div className="row">
 						<div className="col-md-9">
-							<div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
-								<ol className="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to={0} className="active" />
-									<li data-target="#carousel-example-generic" data-slide-to={1} />
-									<li data-target="#carousel-example-generic" data-slide-to={2} />
-								</ol>{" "}
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
+							<div id="example-generic">
+								<div className="inner" role="listbox">
+									<div className="item active">
 										<img
 											style={{
 												width: "820px",
 												height: "600px"
 											}}
 											className="banner img-fluid"
-											src="https://www.bing.com/th?id=OIP.qtu87Phu1VVtqHLw3Ir5SAHaE7&pid=Api&rs=1"
+											src="https://www.inkatrotter.com/redx/tools/mb_image.php/cid.ya2e55e7da5935aec/gid.31/sanma.jpg"
 											alt="First slide"
 										/>
-										<div className="carousel-caption">
+										<div className="caption">
 											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
 											<p>Pray for US!</p>
-											<a href="/espanol">Click here!</a>
+											<a href="/espanol">Spanish!</a>
 										</div>
 									</div>
-									<div className="carousel-item">
-										<img
-											className="banner img-fluid"
-											src="http://4.bp.blogspot.com/-_ZH-I2Rgx7M/UJVnYe-IyjI/AAAAAAAAXfA/tGstYngkAu4/s1600/estampa-san-martc3adn-de-porres.jpg"
-											alt="Second slide"
-										/>
-									</div>
-									<div className="carousel-item">
-										<img
-											className="banner img-fluid"
-											src="http://www.discountcatholicproducts.com/Assets/33/224/img/546-SH.jpg"
-											alt="Third slide"
-										/>
-									</div>
 								</div>
-								<a
-									className="left carousel-control"
-									href="#carousel-example-generic"
-									role="button"
-									data-slide="prev">
-									<span className="icon-prev" aria-hidden="true" />
-									<span className="sr-only">Previous</span>
-								</a>{" "}
-								<a
-									className="right carousel-control"
-									href="#carousel-example-generic"
-									role="button"
-									data-slide="next">
-									<span className="icon-next" aria-hidden="true" />
-									<span className="sr-only">Next</span>
-								</a>
 							</div>
 						</div>
 						<div className="col-md-3">
@@ -216,7 +181,7 @@ export class Home extends React.Component {
 											alt="Online lookup"
 										/>
 									</a>
-									<div className="media-body">
+									{/* <div className="media-body">
 										<h4 className="media-heading">Article Name</h4>
 										<p />
 										<p />
@@ -227,7 +192,7 @@ export class Home extends React.Component {
 												</a>
 											</li>
 										</ul>
-									</div>
+									</div> */}
 								</div>
 							</div>
 						</div>
