@@ -7,21 +7,13 @@ export class Espanol extends React.Component {
 		return (
 			<div>
 				{/*---- Include the above in your HEAD tag --------*/}
-				<link
-					href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-					rel="stylesheet"
-				/>
+
 				<div className="container">
 					<div className="row">
 						<div className="col-md-9">
-							<div id="carousel-example-generic" className="carousel slide" data-ride="carousel">
-								<ol className="carousel-indicators">
-									<li data-target="#carousel-example-generic" data-slide-to={0} className="active" />
-									<li data-target="#carousel-example-generic" data-slide-to={1} />
-									<li data-target="#carousel-example-generic" data-slide-to={2} />
-								</ol>
-								<div className="carousel-inner" role="listbox">
-									<div className="carousel-item active">
+							<div id="example-generic">
+								<div className="inner" role="listbox">
+									<div className="item active">
 										<img
 											style={{
 												width: "820px",
@@ -31,49 +23,12 @@ export class Espanol extends React.Component {
 											src="https://www.bing.com/th?id=OIP.qtu87Phu1VVtqHLw3Ir5SAHaE7&pid=Api&rs=1"
 											alt="First slide"
 										/>
-										<div className="carousel-caption">
-											<h3>
-												Service to others is the rent you pay for your room here on earth. ―
-												Muhammad Ali
-											</h3>
+										<div className="caption">
+											<h3>Whatsoever you do to the least of my brothers that you do unto me.</h3>
 										</div>
-										<a href="/">Click here!</a>
-									</div>
-									<div className="carousel-item">
-										<img
-											className="banner img-fluid"
-											src="http://4.bp.blogspot.com/-_ZH-I2Rgx7M/UJVnYe-IyjI/AAAAAAAAXfA/tGstYngkAu4/s1600/estampa-san-martc3adn-de-porres.jpg"
-											alt="Second slide"
-										/>
-									</div>
-									<div className="carousel-item">
-										<img
-											className="banner img-fluid"
-											src="http://www.discountcatholicproducts.com/Assets/33/224/img/546-SH.jpg"
-											alt="Third slide"
-										/>
-										<div className="carousel-caption">
-											<h3>Here Tst</h3>
-											<p>Hi, Im Text</p>
-										</div>
+										<a href="/">Home!</a>
 									</div>
 								</div>
-								<a
-									className="left carousel-control"
-									href="#carousel-example-generic"
-									role="button"
-									data-slide="prev">
-									<span className="icon-prev" aria-hidden="true" />
-									<span className="sr-only">Previous</span>
-								</a>
-								<a
-									className="right carousel-control"
-									href="#carousel-example-generic"
-									role="button"
-									data-slide="next">
-									<span className="icon-next" aria-hidden="true" />
-									<span className="sr-only">Next</span>
-								</a>
 							</div>
 						</div>
 						<div className="col-md-3">
