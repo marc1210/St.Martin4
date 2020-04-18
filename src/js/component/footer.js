@@ -5,7 +5,7 @@ export class Footer extends Component {
 		return (
 			<footer className="footer mt-auto py-3 text-center">
 				<p>
-					Made by <i className="fas fa-glasses" /> for Build A Web{" "}
+					Made by <i className="fas fa-glasses" /> Build A Web{" "}
 					{/*<a href="https://thebookishfairy.com/">Noobs.com</a>*/}
 				</p>
 			</footer>
