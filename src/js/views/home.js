@@ -9,25 +9,70 @@ export class Home extends React.Component {
 				{/*---- Include the above in your HEAD tag --------*/}
 
 				<div className="container">
-					<div id="app" />
 					<div className="row">
 						<div className="col-md-9">
 							<div id="example-generic">
 								<div className="inner" role="listbox">
 									<div className="item active">
-										<img
-											style={{
-												width: "820px",
-												height: "600px"
-											}}
-											className="banner img-fluid"
-											src="https://www.inkatrotter.com/redx/tools/mb_image.php/cid.ya2e55e7da5935aec/gid.31/sanma.jpg"
-											alt="First slide"
-										/>
-										<div className="caption">
-											<h3>St. Martin de Porres Visual and Performing Arts Ministry</h3>
-											<p>Pray for US!</p>
-											<a href="/espanol">Spanish!</a>
+										<div className="carousel">
+											<input type="radio" id="carousel-1" name="carousel[]" defaultChecked />
+											<input type="radio" id="carousel-2" name="carousel[]" />
+											<input type="radio" id="carousel-3" name="carousel[]" />
+											<input type="radio" id="carousel-4" name="carousel[]" />
+											<input type="radio" id="carousel-5" name="carousel[]" />
+											<ul className="carousel__items">
+												<li className="carousel__item">
+													<img
+														src="https://www.prayergraphics.com/wp-content/uploads/2015/04/171103_MartindePorres.jpg"
+														alt=""
+													/>
+												</li>
+												<li className="carousel__item">
+													<img
+														src="https://i.pinimg.com/originals/1a/df/ff/1adfff253e6534773fa33908be7d787f.jpg"
+														alt=""
+													/>
+												</li>
+												<li className="carousel__item">
+													<img
+														src="https://dominicanfriars.org/content/uploads/2015/11/St.-Martin-O.P.-2015.jpg"
+														alt=""
+													/>
+												</li>
+												<li className="carousel__item">
+													<img
+														src="https://i.pinimg.com/originals/90/dc/80/90dc800282011af9dad07e0cd48f443c.jpg"
+														alt=""
+													/>
+												</li>
+												<li className="carousel__item">
+													<img
+														src="https://www.biography.com/.image/t_share/MTE5NTU2MzE1ODcyNTI3ODgz/saint-martin-de-porres-37827-1-402.jpg"
+														alt=""
+													/>
+												</li>
+											</ul>
+											<div className="carousel__prev">
+												<label htmlFor="carousel-1" />
+												<label htmlFor="carousel-2" />
+												<label htmlFor="carousel-3" />
+												<label htmlFor="carousel-4" />
+												<label htmlFor="carousel-5" />
+											</div>
+											<div className="carousel__next">
+												<label htmlFor="carousel-1" />
+												<label htmlFor="carousel-2" />
+												<label htmlFor="carousel-3" />
+												<label htmlFor="carousel-4" />
+												<label htmlFor="carousel-5" />
+											</div>
+											<div className="carousel__nav">
+												<label htmlFor="carousel-1" />
+												<label htmlFor="carousel-2" />
+												<label htmlFor="carousel-3" />
+												<label htmlFor="carousel-4" />
+												<label htmlFor="carousel-5" />
+											</div>
 										</div>
 									</div>
 								</div>
