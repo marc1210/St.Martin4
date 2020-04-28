@@ -5,7 +5,7 @@ Official builds of this extension are available at the [Visual Studio Marketplac
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
 
 ### Requirements:
-- Make sure you are using node version 8
+- Make sure you are using node version 12
 
 ##### Install the packages:
 ```
@@ -15,8 +15,8 @@ $ npm install
 ## Start coding!
 
 Start the webpack server with live reload:
-- `$ npm run start` for windows, mac, linux or Gitpod.
-- `$ npm run c9` for Cloud 9 Users.
+- `$ npm run start` for windows, mac, linux, Gitpod, or VS.
+
 
 ### Styles
 You can update the `styles/index.scss` or create new `.scss` files inside `styles/` and import them into your current scss or js files depending on your needs.
