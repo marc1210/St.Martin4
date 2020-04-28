@@ -1,4 +1,6 @@
-# WebApp boilerplate with React and Cloud 9
+# WebApp boilerplate with React 
+
+Official builds of this extension are available at the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.GitHubExtensionforVisualStudio).
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/react-hello-webapp.git)
 
